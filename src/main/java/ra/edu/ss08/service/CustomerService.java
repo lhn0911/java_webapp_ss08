@@ -6,9 +6,9 @@ import ra.edu.ss08.model.entity.Customer;
 import java.util.List;
 
 public interface CustomerService {
-    List<Customer> getAllDishes();
-    Customer getDishById(Long id);
-    Customer createDish(Customer customer);
-    Customer updateDish(Long id, Customer customer);
-    void deleteDish(Long id);
+    List<Customer> getAllCustomers();
+    Customer getCustomerById(Long id);
+    Customer createCustomer(Customer customer);
+    Customer updateCustomer(Long id, Customer customer);
+    void deleteCustomer(Long id);
 }
